@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body onload="draw()">
+    <h1>Phonebook</h1>
+    <section class="addValue">
+        <form id="form" onsubmit="adauga(this,event)">
+            <label for="">Name: <input type="text" name="name" placeholder="Enter name..."></label>
+            <label for="">Phone number: <input type="text" name="phone" placeholder="Enter phone number..."></label>
+            <button onclick="adauga(form,event)">save</button>
+        </form>
+    </section>
+    
+    <section class="storeValue hidden">
+        <table class="tabel" id="list">
+            <thead>
+                <tr>
+                    <th id="nameHead"> <p>Name</p></th>
+                    <th id="phoneHead"> <p>Phone number</p></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          </section>
+    
+</body>
+</html>
