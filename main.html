@@ -10,6 +10,43 @@
 </head>
 <body onload="draw()">
     <h1>Phonebook</h1>
+    <title>Search Bar</title>
+    <style>
+        /* Basic CSS for the search bar */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .search-box {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .search-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Style the button when hovered over */
+        .search-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search...">
+        <button class="search-button">Search</button>
+    </div>
     <section class="addValue">
         <form id="form" onsubmit="adauga(this,event)">
             <label for="">Name: <input type="text" name="name" placeholder="Enter name..."></label>
