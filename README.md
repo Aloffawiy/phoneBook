@@ -18,6 +18,6 @@ Features:
 
 
 CONTRIBUTORS:
--Ajibade Fawas Muhammad (NAS/STE/19/1028)
--Jamilu yau(NAS/STE/19/1056)
--Ismail Jugulde Babaji (NAS/STE/19/1053)
+1. Ajibade Fawas Muhammad (NAS/STE/19/1028)
+2. Jamilu yau(NAS/STE/19/1056)
+3. Ismail Jugulde Babaji (NAS/STE/19/1053)
